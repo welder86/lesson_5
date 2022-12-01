@@ -1,0 +1,129 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #E6B721;
+}
+
+h1,
+h6 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section-1__title {
+    font-size: 30px;
+    color: #E6B721;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section-1__text {
+    font-style: italic;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.section-1__list {
+    padding: 40px;
+}
+
+.section-1__item {
+    margin: 20px 10px;
+    padding: 30px;
+    text-align: right;
+}
+
+.section-1__link {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #E6B721;
+    transition: color .4s ease-in-out;
+}
+
+.section-1__link:hover {
+    color: #000000;
+}
+
+.section-2 {
+    padding: 50px 0;
+}
+
+.section-2__title {
+    display: inline-block;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 5px 50px;
+    border: 2px solid #E6B721;
+    border-radius: 20px;
+}
+
+.section-2__text {
+    padding-bottom: 20px;
+    color: #E6B721;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 5px #E6B721;
+    max-width: 900px;
+}
+
+.section-3 {
+    padding: 40px 0;
+}
+
+.section-3__title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 2;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-3__item {
+    margin-bottom: 20px;
+    transition: transform .4s ease-in-out, color .3s;
+}
+
+.section-3__item:hover {
+    color: #21ebff;
+    transform: translateX(20px);
+}
+
+.section-3__link {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.section-3__text {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #21ebff;
+    text-indent: 40px;
+    text-transform: capitalize;
+}
+
+.footer {
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+    color: #21ebff;
+    font-weight: 500;
+    font-size: 50px;
+}
